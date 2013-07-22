@@ -1,9 +1,9 @@
 import math
 
-##a=1.0
-##b=2.0
-##g=6.0
-##h=5.0
+a=1.0
+b=2.0
+g=6.0
+h=5.0
 
 def psiout1(psi,a,b,g,h):
     ca=math.sin(psi)
@@ -33,4 +33,4 @@ def run1(a,b,g,h):
         ybp=b*math.sin(pp)
         print("%.2f  %.2f, %.2f, a=(%.2f, %.2f), bm=(%.2f, %.2f), bp=(%.2f, %.2f)"%(math.degrees(t),math.degrees(pm),math.degrees(pp),xa,ya,xbm,ybm,xbp,ybp))
 
-run1(1,2,6,5)
+run1(a,b,g,h)
